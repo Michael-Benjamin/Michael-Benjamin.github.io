@@ -9,7 +9,7 @@ module.exports = {
         'primary-color': '#26577C',     // Add your primary color
         'secondary-color': '#E55604',   // Add your secondary color
         'tertiary-color': '#EBE4D1',    // Add your tertiary color
-        'quaternary-color': '#B4B4B3',  // Add your quaternary color
+        'quaternary-color': '#484847',  // Add your quaternary color
       },
     },
   },
