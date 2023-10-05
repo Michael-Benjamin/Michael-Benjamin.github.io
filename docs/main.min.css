@@ -635,34 +635,24 @@ video {
   border-radius: 0.5rem;
 }
 
-.bg-blue-500 {
+.bg-primary-color {
   --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+  background-color: rgb(39 123 192 / var(--tw-bg-opacity));
 }
 
-.bg-white {
+.bg-quaternary-color {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  background-color: rgb(255 244 207 / var(--tw-bg-opacity));
 }
 
-.bg-yellow-100 {
+.bg-secondary-color {
   --tw-bg-opacity: 1;
-  background-color: rgb(254 249 195 / var(--tw-bg-opacity));
+  background-color: rgb(255 178 0 / var(--tw-bg-opacity));
 }
 
-.bg-yellow-200 {
+.bg-tertiary-color {
   --tw-bg-opacity: 1;
-  background-color: rgb(254 240 138 / var(--tw-bg-opacity));
-}
-
-.bg-yellow-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(234 179 8 / var(--tw-bg-opacity));
-}
-
-.bg-yellow-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(161 98 7 / var(--tw-bg-opacity));
+  background-color: rgb(255 203 66 / var(--tw-bg-opacity));
 }
 
 .p-4 {
@@ -712,11 +702,6 @@ video {
   font-weight: 600;
 }
 
-.text-gray-800 {
-  --tw-text-opacity: 1;
-  color: rgb(31 41 55 / var(--tw-text-opacity));
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -746,9 +731,9 @@ video {
 
 /* Your custom CSS goes here */
 
-.hover\:bg-blue-400:hover {
+.hover\:bg-tertiary-color:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(96 165 250 / var(--tw-bg-opacity));
+  background-color: rgb(255 203 66 / var(--tw-bg-opacity));
 }
 
 @media (min-width: 768px) {
