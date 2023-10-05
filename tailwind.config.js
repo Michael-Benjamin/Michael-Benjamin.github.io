@@ -7,9 +7,9 @@ module.exports = {
     extend: {
       backgroundColor: {
         'primary-color': '#26577C',     // Add your primary color
-        'secondary-color': '#EBE4D1',   // Add your secondary color
-        'tertiary-color': '#E55604',    // Add your tertiary color
-        'quaternary-color': '#B4B4B3',  // Add your quaternary color
+        'secondary-color': '#E55604',   // Add your secondary color
+        'tertiary-color': '#B4B4B3',    // Add your tertiary color
+        'quaternary-color': '#EBE4D1',  // Add your quaternary color
       },
     },
   },
