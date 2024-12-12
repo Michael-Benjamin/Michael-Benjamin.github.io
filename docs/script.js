@@ -42,6 +42,9 @@ const gameOverOverlay = document.getElementById('gameOverOverlay');
 
 // Upload funtionality
 document.getElementById('uploadButton').addEventListener('click', function() {
+
+    document.getElementById('uploadButton').setAttribute('disabled', 'true');
+
     const fileInput = document.getElementById('fileInput');
     const file = fileInput.files[0];
     
@@ -65,6 +68,9 @@ document.getElementById('uploadButton').addEventListener('click', function() {
     } else {
         alert("Please select a file.");
     }
+
+    document.getElementById('uploadButton').removeAttribute('disabled');
+
 });
 
 
@@ -202,20 +208,8 @@ function loadImage() {
     zoomLevel = MAX_ZOOM_LEVEL; // Reset the zoom level
     imageElem.style.transform = `scale(${zoomLevel})`; // Apply zoom
     updatePointsIndicator();
-    resetTimer() // Start/reset the timer
+    resetTimer(); // Start/reset the timer
     messageElem.textContent = ''; // Clear messages
-
-    // document.onloadstart(() => {
-    //     document.getElementById('loading').style.visibility = 'hidden';
-    //     document.getElementById('image').style.display = 'none';
-    // });
-
-    // document.onload(() => {
-    //     document.getElementById('loading').style.visibility = 'visible';
-    //     document.getElementById('image').style.display = 'block';
-    //     resetTimer() // Start/reset the timer
-    // });
-
 }
 
 function showGameOverOverlay() {
